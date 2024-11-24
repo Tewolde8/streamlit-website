@@ -18,7 +18,7 @@ st.sidebar.title("Navigation")
 if st.sidebar.button("Eco-Impacts of Caffeine Production"):
     navigate_to("Eco-Impacts")
 if st.sidebar.button("Dangers of Synthetic Caffeine"):
-    navigate_to("Synthetic Caffine") 
+    navigate_to("Synthetic Caffeine") 
 if st.sidebar.button("About Me"):
     navigate_to("About Me")
 if st.sidebar.button("Source Code"):
@@ -64,7 +64,7 @@ if st.session_state.page == "Eco-Impacts":
         st.write("")
         st.write("")
         st.write("")
-        img = Image.open("/Users/issactewolde/Desktop/leah.jpeg")
+        img = Image.open("images/leah.jpeg")
         st.image(img, caption="", width=350)
 
     
@@ -93,7 +93,7 @@ if st.session_state.page == "Eco-Impacts":
 
     with image_col2:
         st.write("")
-        img2 = Image.open("/Users/issactewolde/Desktop/syn.jpg")
+        img2 = Image.open("images/syn.jpg")
         st.image(img2, caption="Anhydrous synthetic caffeine", width=350)
         
     st.success("")
@@ -131,7 +131,7 @@ if st.session_state.page == "Eco-Impacts":
             
     
 #Dangers of Synthetic Caffeine
-elif st.session_state.page == "Synthetic Caffine":
+elif st.session_state.page == "Synthetic Caffeine":
     col3, col4 = st.columns([0.74, 2.5])
     with col4:
         st.title("The Dangers of Synthetic Caffeine")
@@ -153,7 +153,7 @@ elif st.session_state.page == "Synthetic Caffine":
     with col8:
         st.write("")
         st.write("")
-        img3 = Image.open("/Users/issactewolde/Desktop/urea.jpg")
+        img3 = Image.open("images/urea.jpg")
         st.image(img3, caption="Breakdown of protein in the liver.", width=500)
     
     
@@ -227,7 +227,7 @@ elif st.session_state.page == "About Me":
     )
     
     st.write("")
-    img4 = Image.open("/Users/issactewolde/Desktop/issac8.jpg")
+    img4 = Image.open("images/issac8.jpg")
     st.image(img4, caption="Volunteering at Mount Daniels - 2022", use_column_width=True)
     \
     
