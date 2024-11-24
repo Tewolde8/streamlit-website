@@ -64,7 +64,7 @@ if st.session_state.page == "Eco-Impacts":
         st.write("")
         st.write("")
         st.write("")
-        img = Image.open("images/leah.jpeg")
+        img = Image.open("images/issac1.jpg")
         st.image(img, caption="", width=350)
 
     
@@ -93,7 +93,7 @@ if st.session_state.page == "Eco-Impacts":
 
     with image_col2:
         st.write("")
-        img2 = Image.open("images/syn.jpg")
+        img2 = Image.open("images/issac2.jpg")
         st.image(img2, caption="Anhydrous synthetic caffeine", width=350)
         
     st.success("")
@@ -153,7 +153,7 @@ elif st.session_state.page == "Synthetic Caffeine":
     with col8:
         st.write("")
         st.write("")
-        img3 = Image.open("images/urea.jpg")
+        img3 = Image.open("images/issac4.jpg")
         st.image(img3, caption="Breakdown of protein in the liver.", width=500)
     
     
