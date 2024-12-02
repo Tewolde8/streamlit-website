@@ -2,7 +2,6 @@
 
 import streamlit as st
 from PIL import Image
-import cv2
 
 #Move set_page_config to the top
 st.set_page_config(page_title="Caffeine Production", page_icon=":trees:", layout="wide")
